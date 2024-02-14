@@ -1,0 +1,63 @@
+---
+import Section from "../Section.astro"
+import {work, volunteer} from '@cv'
+---
+
+<Section title="Experiencia Laboral">
+    <ul>
+        {work.map(({name, startDate, endDate, position, summary}) =>{
+            return(
+                <li>
+                    <article>
+                        <header>
+                            <div>
+                                <h3>{name}</h3>
+                                <h4>{position}</h4>
+                            </div>
+                        </header>
+                    </article>
+                    <footer>
+                        <span>{startDate} - {endDate? endDate : 'Presente'}</span>
+                        <p>{summary}</p>
+                    </footer>
+                </li>
+            )
+        })}
+        <article>
+            <h3>{volunteer[0].organization}</h3>
+            <h4>{volunteer[0].position}</h4>
+            <footer>
+                <span>{volunteer[0].startDate} - {volunteer[0].endDate? volunteer[0].endDate : 'Presente'}</span>
+                <p>{volunteer[0].summary}</p>
+            </footer>
+        </article>
+    </ul>
+</Section>
+<style>
+    ul{
+       display: flex;
+       flex-direction: column;
+       gap: 32px;
+    }
+    span{
+        font-size: 0.7rem;
+        color: #888;
+        
+    }
+    p{
+        margin-top: 4px;
+    }
+    article h3{
+        font-weight: 500;
+        color: #111
+    }
+    article h4{
+        font-weight: 400;
+        color:#222
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>

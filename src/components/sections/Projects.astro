@@ -1,0 +1,96 @@
+---
+import Section from "../Section.astro"
+
+import { certificates } from "@cv"
+---
+
+<Section title="Cursos / Certificados">
+  <ul>
+    {
+      certificates.map(
+        ({ url, name, date, issuer }) => {
+          return (
+            <li>
+              <article>
+                <header>
+                  <h3>
+                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                      {name}
+                    </a>
+                  </h3>
+                  <p>{issuer}</p>
+                </header>
+                <footer>
+                  {date}
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-left: 2px;
+  }
+
+  article header {
+    flex: 1;
+  }
+
+  article h3 {
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+  }
+
+  article a {
+    color: #444;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    margin-bottom: 4px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+
+  .github-code-link {
+    margin-left: 5px;
+  }
+
+  @media (width <= 700px) {
+    ul {
+      margin-right: 36px;
+    }
+
+    article {
+      border: none;
+      padding: 0 0 16px 0;
+    }
+  }
+</style>

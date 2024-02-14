@@ -1,0 +1,230 @@
+{
+    "basics": {
+      "name": "Tomás Silvente",
+      "label": "FullStack Dev con 2 años de experiencia enfocada mayormente en el FrontEnd",
+      "image": "https://media.licdn.com/dms/image/C4D03AQF5g2cQ6J14uw/profile-displayphoto-shrink_200_200/0/1593907069854?e=1713398400&v=beta&t=2bmDLw7uTJNRwL6QszreJnhsQ7Yq99eNotCH53l1Wdg",
+      "email": "silventetomas@gmail.com",
+      "phone": "+54 9 2932 500900",
+      "url": "https://github.com/tomassilvente?tab=repositories",
+      "summary": "Técnico en Redes Informáticas, Analista en Sistemas y Desarrollador FullStack, amante del FrontEnd. Con 1 año de experiencia real desarrollando con tecnologías como JavaScript, Python, TypeScript, SQL, No SQL (MongoDB) y utilizando frameworks como Nextjs, Nodejs y Express.",
+      "location": {
+        "postalCode": "8109",
+        "city": "Punta Alta",
+        "countryCode": "AR",
+        "region": "Buenos Aires"
+      },
+      "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Tomás Silvente",
+        "url": "https://www.linkedin.com/in/tomas-silvente-a4b1951b2/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Tomás Silvente",
+        "url": "https://github.com/tomassilvente?tab=repositories"
+      },
+      {
+        "network": "X",
+        "username": "tomas_silvente",
+        "url": "https://twitter.com/tomas_silvente"
+      }]
+    },
+    "work": [{
+      "name": "Immer",
+      "position": "FrontEnd Developer",
+      "url": "https://immer.world",
+      "startDate": "01-07-2023",
+      "endDate": null,
+      "summary": "Desarrollar WebApp & Landing Page de la empresa, utilizando Nextjs como principal framework, creando las páginas proporcionadas por el equipo UX/UI y luego creando las conexiones con el backend para su completo funcionamiento.",
+      "highlights": [
+        "Entered as Volunteer, upgraded to Developer after 2 months"
+      ]
+    },
+    {
+      "name": "Inmobiliaria Centro",
+      "position": "Desarrollador Web",
+      "startDate": "01-05-2022",
+      "endDate": "25-11-2022",
+      "summary": "Creación de página Web funcional con la idea de no solo mostrar las casas, sino que también manejar alquileres, ventas y clientes de la inmobiliaria. Se utilizó Python con Flask como tecnologías y MySQL para el manejo de las bases de datos."
+    }],
+    "volunteer": [{
+      "organization": "Municipalidad de Coronel Rosales",
+      "position": "Volunteer - Técnico en Redes",
+      "url": "http://www.rosalesmunicipio.gob.ar",
+      "startDate": "01-08-2021",
+      "endDate": "01-12-2021",
+      "summary": "Pasantía de 4 meses que consistía en el mantenimiento y solución de problemas en la red interna y los servidores de la municipalidad. Utilizando servidores Apache, aparatos Cisco e implementación de protocolos IPv4, DHCP, SMTP, STP para la configuración de los"
+    }],
+    "education": [{
+      "institution": "Instituto Superior de Formación Técnica 190",
+      "area": "Analista en Sistemas",
+      "studyType": "Tecnicatura",
+      "startDate": "20-02-2020",
+      "endDate": "01-03-2024"
+    },{
+      "institution": "Instituto Superior TECLAB",
+      "area": "Técnico en Redes Informáticas",
+      "studyType": "Tecnicatura",
+      "startDate": "01-03-2020",
+      "endDate": "20-12-2021"
+    }],
+    "certificates": [
+    {
+      "name": " The Ultimate 2022 Fullstack Web Development Bootcamp",
+      "date": "12-07-2022",
+      "issuer": "Kalob Taulien",
+      "url": "https://www.udemy.com/certificate/UC-0f30a5a2-ac1c-4ddb-ad5c-fafbb0b5595d/"
+    },
+    {
+        "name": "Desarrollador BackEnd (NodeJs y Express)",
+        "date": "20-11-2023",
+        "issuer": "CODERHOUSE",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7138598654474448896/"
+    },
+    {
+      "name": "Python sin Fronteras",
+      "date": "11-11-2021",
+      "issuer": "Nicolas Schurmann",
+      "url": "https://www.udemy.com/course/python-sin-fronteras-html-css-mysql/"
+    },
+    {
+      "name": "React de cero a Experto",
+      "date": "25-08-2023",
+      "issuer": "Fernando Herrera",
+      "url": "https://www.udemy.com/course/react-cero-experto/"
+    }],
+    "skills": [{
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": [
+        "HTML"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "keywords": [
+        "CSS"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "NextJs",
+      "level": "Advanced",
+      "keywords": [
+        "NextJs"
+      ]
+    },
+    {
+      "name": "ReactJs",
+      "level": "Advanced",
+      "keywords": [
+        "ReactJs"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Advanced",
+      "keywords": [
+        "Tailwind"
+      ]
+    },{
+      "name": "Bootstrap",
+      "level": "Advanced",
+      "keywords": [
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "FireBase",
+      "level": "Advanced",
+      "keywords": [
+        "FireBase"
+      ]
+    },
+    {
+      "name": "API Rest",
+      "level": "Advanced",
+      "keywords": [
+        "API Rest"
+      ]
+    },
+    {
+      "name": "NodeJs",
+      "level": "Good",
+      "keywords": [
+        "NodeJs"
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Advanced",
+      "keywords": [
+        "Express"
+      ]
+    },{
+      "name": "MongoDB",
+      "level": "Advanced",
+      "keywords": [
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Flask",
+      "level": "Advanced",
+      "keywords": [
+        "Flask"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": [
+        "MySQL"
+      ]
+    }
+  ],
+    "languages": [{
+      "language": "Español",
+      "fluency": "Nativo"
+    },{
+      "language": "Inglés",
+      "fluency": "Muy Avanzado"
+    }],
+    "interests": [{
+      "name": "Gaming",
+      "keywords": [
+        "Competitivo",
+        "Amigos"
+      ]
+    },
+    {
+      "name": "Basquetbol",
+      "keywords": [
+        "Deporte",
+        "Salud"
+      ]
+    }],
+    "references": [{
+      "name": "Oliver Comptom",
+      "reference": "Immer CEO"
+    },
+    {
+      "name": "Emanuel Manrique",
+      "reference": "Lider del Dev Team en Immer"
+    }]
+  }
